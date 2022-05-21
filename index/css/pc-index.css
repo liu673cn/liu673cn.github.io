@@ -1,0 +1,282 @@
+.full-box{
+    width: 2000px;
+    height: 1100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -1000px;
+    margin-top: -550px;
+    background-color: #333;
+}
+.hoverDiv{
+    transition: transform .3s;
+    cursor: pointer;
+    position: relative;
+}
+.hoverDiv:hover{
+    transform: scale(1.05);
+}
+.full-box>img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -500px;
+    margin-top: -300px;
+    width: 1000px;
+    height: 600px;
+}
+main{
+    padding: 10px;
+}
+.main-top{
+    display: flex;
+    justify-content: space-around;
+}
+.main-top-left-top{
+    padding: 15px;
+    background-color: #81cb6b;
+    border-radius: 8px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+    height:130px;
+    background: url("../images/phonebg.jpg")/*tpa=http://www.imeiju1.com/images/phonebg.jpg*/; 
+}
+.common{
+  position: relative;
+  height: 100%;
+  width: 100px;
+}
+.common h4{
+    font-size: 20px;
+}
+.common p{
+   margin: 10px 0;
+}
+.common i{
+    position: absolute;
+    color: rgba(255,255,255,.5);
+}
+.common i:first-child{
+    font-size: 70px;
+    left:15px;
+    bottom:0;
+}
+.common i:last-child{
+    font-size: 30px;
+    left: 50%;
+    top:40%;
+    transform: translate(-50%,-50%);
+}
+.main-top-left-top div:first-child{
+    flex:1;
+}
+.main-top>div{
+    width: 30%;
+}
+.main-top-left-bottom-left{
+    width: 140px;
+    height: 130px;
+    background: url("../images/iosbg.jpg")/*tpa=http://www.imeiju1.com/images/iosbg.jpg*/;
+    background-position: center center;
+    border-radius: 8px;
+}
+.main-top-left-bottom-left p{
+    font-size: 18px;
+    line-height: 40px;
+}
+.common-ios{
+    margin: 0 auto;
+    height: 90px;
+}
+.common-ios i:first-child{
+    font-size: 60px;
+    left: 20px;
+}
+.common-ios i:last-child{
+    font-size: 20px;
+    top:45%;
+}
+.main-top-left-bottom-left{
+    float: left;
+    position: relative;
+}
+.main-top-left-bottom-right{
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-left: 24px;
+}
+.main-top-left-bottom-right-common{
+    background-color: #6cc;
+    border-radius: 5px;
+    height: 37%;
+    margin-bottom: 26%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-top-left-bottom-right-common i{
+    font-size: 30px;
+    padding-left: 10px;
+    color: rgba(255,255,255,.5);
+}
+.main-top-left-bottom-right-common span{
+    font-size: 16px;
+}
+
+.main-top-left-bottom-right div:last-child{
+    background-color: #69c;
+}
+.main-top-center{
+    height: 290px;
+    background: url("../images/logo-zimuzu.jpg")/*tpa=http://www.imeiju1.com/images/logo-zimuzu.jpg*/;
+    background-position: center center;
+    position: relative;
+    padding-top: 60px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.main-top-center>div:first-child p{
+    font-size: 18px;
+}
+.main-top-center>div:nth-child(2){
+   position: absolute;
+   bottom: 20px;
+   left:0;
+   width:100%;
+}
+.main-top-right-common{
+    height: 40%;
+    background-color:#0f4c8a ;
+}
+.main-top-right-common{
+    height: 45%;
+    background-color:#0f4c8a;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.main-top-right-common>div{
+    height: 100%;
+}
+.main-top-right-common>div:first-child{
+    flex:1;
+}
+.main-top-right-common>div:last-child{
+    width: 70px;
+}
+.main-top-right-common div i{
+    font-size: 60px;
+    color: rgba(255,255,255,.5);
+}
+.main-top-right-common h4{
+    font-size: 18px;
+    height: 40px;
+}
+.main-top-right>div:last-child{
+    background-color: #eb7047;
+    margin-top: 10%;
+    background: url("../images/macbg.jpg")/*tpa=http://www.imeiju1.com/images/macbg.jpg*/;
+}
+.main-bottom{
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.main-bottom div{
+    width: 140px;
+    height: 130px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.main-bottom div h4{
+    font-size: 16px;
+}
+.main-bottom .one{
+    background: #8f85ad;
+}
+.main-bottom .two{
+    background: #40bf80;
+}
+.main-bottom .three{
+    background: #eb4747;
+}
+.main-bottom .four{
+    padding:0;
+}
+.main-bottom .four p{
+    height: 55px;
+    line-height: 55px;
+    border-radius: 5px;
+}
+.main-bottom .four p:first-child{
+    background: rgba(71,162,249,1);
+    margin-bottom: 20px;
+}
+.main-bottom .four p:last-child{
+    background: rgba(220,49,54,1);
+}
+.main-bottom .five{
+    background-color: #5F9EA0;
+}
+.main-bottom .six p:first-child{
+    background: #c6c;
+}
+.main-bottom .six p:last-child{
+    background: #fff;
+    color: #000;
+}
+.toolTips{
+    position: absolute;
+    top:-35px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0 10px;
+    min-width: 15em;
+    background-color: #000;
+    text-align: center;
+    border-radius: 4px;
+}
+.btmToolTips{
+    top:105%;
+}
+
+.toolTipsMiddle{
+    min-width: 8em;
+}
+.toolTips::before{
+    content:'';
+    position: absolute;
+    left: 50%;
+    bottom:-6px;
+    width:0;
+    height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:6px solid black;
+}
+.btmToolTips::before{
+    content:'';
+    position: absolute;
+    left: 50%;
+    bottom:100%;
+    width:0;
+    height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:6px solid black;
+    border-top:5px solid transparent;
+}
