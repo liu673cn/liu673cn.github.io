@@ -121,4 +121,39 @@ SOFTWARE.
 .pl-mo /* meta.output */ {
   color: #1d3e81;
 }
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box{
+	width: 400px;
+	background-color: aqua;
+	position: relative;
+}
+p{
+	line-height: 30px;
+	padding: 10px;
+}
+#check, .element, .checkout{
+	display: none;
+}
 
+.checkin, .checkout{
+	cursor: pointer;
+	position: absolute;
+	right: 0px;
+}
+.checkin{
+	display: block;
+}
+:checked ~ .element {
+	display: block;
+}
+:checked ~ .checkout {
+	display: block;
+}
+:checked ~ .checkin {
+	display: none;
+}
+.checkin:hover, .checkout:hover{color: red;}
