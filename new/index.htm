@@ -53,7 +53,7 @@ assets-cdn.github.com  <br />
 github.global.ssl.fastly.net  <br />
 </p>
 <h3>2. 修改系统Hosts文件 </h3>         
-打开系统hosts文件(需管理员权限)。 <br />
+<p>打开系统hosts文件(需管理员权限)。 <br />
 路径：C:\Windows\System32\drivers\etc <br />
 在末尾添加三个链接的记录并保存。(需管理员权限，注意IP地址与域名间需留有空格)
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>记录可能有多个。
@@ -63,7 +63,7 @@ github.global.ssl.fastly.net  <br />
 <span class="sb">185.199.110.153    assets-cdn.github.com</span>
 <span class="sb">185.199.111.153    assets-cdn.github.com</span>
 <span class="gs">199.232.69.194    github.global.ssl.fastly.net</span>
-</code></pre>
+</code></pre></p>
 <h3>3. 刷新系统DNS缓存</h3>
 <p>Windows+X 打开系统命令行（管理员身份）或powershell <br />
 运行 ipconfig /flushdns 手动刷新系统DNS缓存。</p>
