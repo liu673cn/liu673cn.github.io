@@ -56,15 +56,13 @@ github.global.ssl.fastly.net  <br />
 <p>打开系统hosts文件(需管理员权限)。 <br />
 路径：C:\Windows\System32\drivers\etc <br />
 在末尾添加三个链接的记录并保存。(需管理员权限，注意IP地址与域名间需留有空格)
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>记录可能有多个。
-<span class="gs">1140.82.114.4     github.com</span>
-<span class="sx">185.199.108.153    assets-cdn.github.com</span>
-<span class="sb">185.199.109.153    assets-cdn.github.com</span>
-<span class="sb">185.199.110.153    assets-cdn.github.com</span>
-<span class="sb">185.199.111.153    assets-cdn.github.com</span>
-<span class="gs">199.232.69.194    github.global.ssl.fastly.net</span>
-</code></pre></p>
 
+  
+<h3>3. 刷新系统DNS缓存</h3>
+<p>Windows+X 打开系统命令行（管理员身份）或powershell <br />
+运行 ipconfig /flushdns 手动刷新系统DNS缓存。 <br />
+现在打开Github，clone一个项目到本地试试吧，电信的宽带会轻松达到10M/s的速度。</p>
+  
   <h3>Markdown</h3>
 <p>本页面收集和整理内容均来自于互联网。</p>
       <footer class="site-footer">    
