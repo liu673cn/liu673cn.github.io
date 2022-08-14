@@ -46,7 +46,7 @@ main{
     margin-bottom: 30px;
     position: relative;
     height:130px;
-    background: url("../images/phonebg.jpg")/*tpa=http://www.imeiju1.com/images/phonebg.jpg*/; 
+    background: url("../images/phonebg.jpg")/*tpa=http://liucn.cc/index/images/phonebg.jpg*/; 
 }
 .common{
   position: relative;
@@ -83,7 +83,7 @@ main{
 .main-top-left-bottom-left{
     width: 140px;
     height: 130px;
-    background: url("../images/iosbg.jpg")/*tpa=http://www.imeiju1.com/images/iosbg.jpg*/;
+    background: url("../images/iosbg.jpg")/*tpa=http://liucn.cc/index/images/iosbg.jpg*/;
     background-position: center center;
     border-radius: 8px;
 }
@@ -137,7 +137,7 @@ main{
 }
 .main-top-center{
     height: 290px;
-    background: url("../images/logo-zimuzu.jpg")/*tpa=http://www.imeiju1.com/images/logo-zimuzu.jpg*/;
+    background: url("../images/logo-zimuzu.jpg")/*tpa=http://liucn.cc/index/images/logo-zimuzu.jpg*/;
     background-position: center center;
     position: relative;
     padding-top: 60px;
@@ -185,7 +185,7 @@ main{
 .main-top-right>div:last-child{
     background-color: #eb7047;
     margin-top: 10%;
-    background: url("../images/macbg.jpg")/*tpa=http://www.imeiju1.com/images/macbg.jpg*/;
+    background: url("../images/macbg.jpg")/*tpa=http://liucn.cc/index/images/macbg.jpg*/;
 }
 .main-bottom{
     padding: 10px;
